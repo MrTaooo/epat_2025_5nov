@@ -1,5 +1,6 @@
 # first stage
-FROM openjdk:23-jdk-oracle AS builder
+# FROM openjdk:23-jdk-oracle AS builder
+FROM openjdk:11-ea-11-jre-sid AS builder
 
 WORKDIR /app
 
